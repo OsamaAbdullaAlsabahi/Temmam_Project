@@ -1,0 +1,152 @@
+.section-7{
+    height: 340px;
+    width: 90%;
+    padding: 0 150px;
+}
+
+.our-clients p{
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.14em;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    color: rgba(243, 175, 28, 1);
+    margin-right: 200px;
+}
+
+.our-clients h1{
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(15, 17, 60, 1);
+    padding: 15px 0 50px 0;
+    margin-right: 200px;
+}
+/*
+.slider-3{
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px;
+
+}
+.slide-3{
+    display: flex;
+    overflow: hidden;
+
+}
+.swiper-wrapper{
+   padding: 20px 40px 20px 70px;
+}*/
+.clients-1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.comments-5{
+   
+    width: 40%;
+    padding-left: 20px;
+   
+
+}
+.swiper-slide-active{
+    padding-left: 100px;
+
+}
+.side{
+    display: flex;
+    width: 100%;
+    transition: all .3 ease-in-out;
+    background-color: blue;
+
+}
+.side-1{
+    padding: 0px 30px 10px 30px;
+    filter: grayscale(100%);
+   
+}
+.side-1:hover{
+    filter: grayscale(0);
+}
+/*
+
+.swiper-slide{
+   
+}
+
+*/
+.swiper-button-next:after, 
+.swiper-button-prev:after{
+    color: rgba(109, 109, 109, 1);
+    font-size: 2px;
+    font-size:var(--swiper-navigation-size);
+}
+.swiper-button-next:after{
+    margin-right: 400px;
+}
+.swiper-button-prev:after{
+    margin-left: 130px;
+}
+.clients1{
+    display: flex;
+   
+}  
+.prev-1::after,
+.next-1::after{
+    color: rgba(109, 109, 109, 1);
+    font-size: 2px;
+    font-size:var(--swiper-navigation-size);
+   
+   
+}
+.next-client{
+    color: aquamarine;
+}
+.prev-1::after{
+    margin-left: 160px;
+    margin-right: 90px;
+}
+.next-1::after{
+    margin-right: 450px;
+}
+/*
+.swiper-button-prev:after{
+margin-left: 150px;
+margin-right: 90px;
+}
+.swiper-button-next:after{
+    margin-right: 90px;
+}
+.swiper-backface-hidden .swiper-slide::after{
+    background-color: #F6FAFD;
+}
+.swiper{
+   
+}
+.clients{
+    background-color: #F6FAFD;
+    width: 90%;
+    margin: 0;
+    border-radius: 15px;
+    height: 150px;
+}
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden{
+    margin: 0;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 10px;
+}*/
+:root ::after {
+    --swiper-navigation-size:10px;
+}

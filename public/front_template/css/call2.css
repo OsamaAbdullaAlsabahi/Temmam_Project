@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.call-center{
+    width: 100%;
+    padding: 40px 65px;
+}
+.call{
+    width: 90%;
+    display: flex;
+}
+.call-1{
+    width: 50%;
+    padding-left: 20px;
+}
+.call-1 h1{
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
+    color: rgba(15, 17, 60, 1);
+
+}
+.call-p1{
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.14em;
+    text-align: left;
+    text-transform: capitalize;
+    color: rgba(243, 175, 28, 1);
+    padding-bottom: 10px;
+
+}
+.call-p{
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 5px 0 10px 0 ;
+    color: rgba(103, 103, 105, 1);
+
+
+}
+.call-2{
+    width: 50%;
+    padding-left: 180px;
+    margin-top: -8px;
+}
+.call-2 img{
+    width: 430px;
+}
+.cir-call{
+    fill: rgba(243, 175, 28, 0.24);
+    padding-left: 80%;
+    margin-top: -160px;
+}
+.main-feature h1{
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
+    color: rgba(15, 17, 60, 1);
+    padding-bottom: 20px;
+
+}
+.main-feature p{
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 1);
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.main-feature{
+    width: 100%;
+    padding-left: 120px;
+    padding-bottom: 120px;
+}
+.main-feature1{
+    width: 90%;
+    display: flex;
+    margin-top: -150px;
+}
+.main-feature-content-img {
+    background-color: rgba(243, 175, 28, 0.9);
+    border-radius: 50%;
+    -moz-border-redius:50%;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    -webkit-border-redius: 50%;
+    line-height: 60px;
+    text-align: center;
+    align-items: center;
+    margin: 10px  10px 10px 0;
+
+
+
+}
+.main-feature-content{
+    display: flex;
+}
+.main-feature-2{
+    margin-left: 100px;
+}
+.img-dots-call{
+    height: 300px;
+    width: 300px;
+    padding-left: 82%;
+    position: relative;
+    margin-top: -150px;
+}
